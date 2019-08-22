@@ -1,0 +1,39 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url(../img/masks.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300vh;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 300vh;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  border: 3px #428bca solid;
+  margin-top: 100px;
+  background: rgba(91, 192, 222, 0.8);
+}
+
+#study-inner {
+  border: 3px #428bca solid;
+  background: rgba(91, 192, 222, 0.8);
+  min-height: 60vh;
+  width: 100%;
+}
